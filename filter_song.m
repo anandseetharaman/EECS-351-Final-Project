@@ -20,4 +20,4 @@ fundamentalFrequency = frequencies(idx);
 
 filteredSignal = filter(testnotch(fundamentalFrequency),y);
 
-sound(filteredSignal,Fs);
+audiowrite("filtered_"+filePath,filteredSignal,Fs);
