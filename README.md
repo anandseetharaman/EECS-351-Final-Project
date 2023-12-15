@@ -1,7 +1,7 @@
 <h1>EECS 351 Project: Music Artist Identifier</h1>
 
 <h2>Project Description</h2>
-<p>In this project, we are attempting to classify a music artist based on their song using Digital Signal Processing(DSP) Techniques and Machine Learning. Initally, we will process our signals to remove unwanted noise and ensure that we are able to isolate the voice of the music artist from their music and then use existing machine learning models to classify those signals. Our goal is to ensure that the machine learning models are able to have an accuracy of atleast 75% after our signal processing methods are applied to the data.<p>
+<p>In this project, we are attempting to classify a music artist based on their song using Digital Signal Processing(DSP) Techniques and Machine Learning. Initally, we will process our signals to remove unwanted noise and ensure that we are able to isolate the voice of the music artist from their music and then use existing machine learning models to classify those signals. Our goal is to ensure that the machine learning models are able to have an accuracy of at least 75% after our signal processing methods are applied to the data.<p>
 
 <h2>Dataset Collected</h2>
 <p>For our data, we decided to have 8 music artists, 4 male and 4 female, and for each music artist we found 10 songs and extracted a 10 second clip from each song in the form of .wav files. The music artists we selected were Drake, Pitbull, Taylor Swift, Katy Perry, Beyonce, The Weeknd, Travis Scott, and Lana Del Rey. Later on, we also added 10 more clips(making a total of 20) each for four of the music artists, Drake, Lana Del Rey, Taylor Swift, and Pitbull, to see if additional amount of data for a smaller number of music artists would improve our classification model. </p>
