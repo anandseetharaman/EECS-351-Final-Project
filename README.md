@@ -32,8 +32,17 @@
   <li>SVM: Finds the optimal hyperplanes in order to separate the data to create different classes </li>
 
 </ul>
+<h2>Demo MATLAB Files</h2>
+<ul>
+  <li>demo.m: Uses a trained KNN classifier to determine artists from unseen audio clips</li>
+  <li>demoKNNClassifier.mat: The trained KNN classifier, load this into the workspace to use it within demo.m</li>
+  <li>Pitbull - Hotel Room Service.wav: First unseen .wav file that is used to test our model</li>
+  <li>Drake - Churchill Downs.wav: Second unseen .wav file that is used to test our model</li>
+  <li>Lana Del Rey - Doin Time.wav: Third unseen .wav file that is used to test our model</li>
+  <li>Taylor Swift - Talking.wav: Fourth unseen .wav file that is used to test our model</li>
+</ul>
 
-<h2>MATLAB Files</h2>
+<h2>Other MATLAB Files</h2>
 <ul>
   <li>demo.m: Uses a trained KNN classifier to determine artists from unseen audio clips</li>
   <li>Fingerprinting.m: Generates fingerprints for each song and trains a decision tree using the fingerprints</li>
