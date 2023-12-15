@@ -36,6 +36,7 @@
 <ul>
   <li>demo.m: Uses a trained KNN classifier to determine artists from unseen audio clips</li>
   <li>demoKNNClassifier.mat: The trained KNN classifier, load this into the workspace to use it within demo.m</li>
+  <li>testnotch.m: Notch filter used to remove unwanted noise in audio clips</li>
   <li>Pitbull - Hotel Room Service.wav: First unseen .wav file that is used to test our model</li>
   <li>Drake - Churchill Downs.wav: Second unseen .wav file that is used to test our model</li>
   <li>Lana Del Rey - Doin Time.wav: Third unseen .wav file that is used to test our model</li>
@@ -55,8 +56,6 @@
   <li>decision_tree_v3_MFCC.m: Runs the decision tree classifier for decision_tree_v3_MFCC_test.m</li>
 
   <li>classificationTest.m: Trains a set of data, on a range of audio features, in either KNN, naive bayes, or discriminant analysis. Cross evaluates the classifier and tests it on unused data to determine effectiveness</li>
-
-  <li>testnotch.m: Notch filter used to remove unwanted noise in audio clips</li>
 
   <li>filterSong.m: Uses testNotch.m to take in a wav file and filter it and outputs the filtered file with the prefix “filter_”</li>
 
