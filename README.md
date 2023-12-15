@@ -49,4 +49,9 @@
   <li>testNotch.m: Notch filter used to remove unwanted noise in audio clips</li>
 
   <li>filterSong.m: Uses testNotch.m to take in a wav file and filter it and outputs the filtered file with the prefix “filter_”</li>
+
+  <li>SVM_LanaVsTaylor.m: Runs the SVM classifier to compare Lana Del Ray to Taylor Swift</li>
+
+  <li>SVM_PitbullVsDrake.m: Runs the SVM classifier to compare Pitbull to Drake</li>
+  
 </ul>
