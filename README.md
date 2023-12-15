@@ -10,7 +10,7 @@
   
   <li>Filters: Attenuate all the noise with frequencies outside of the desired frequency range, which would be human vocals frequncy range for out project</li>
 
-  <li>Spectogram: Visual representation of frequencies as they vary with time</li>
+  <li>Spectrogram: Visual representation of frequencies as they vary with time</li>
 
   <li>Fingerprinting: Identifying songs based on a unique fingerprint created for each song following the process used by researchers from the University of Rochester</li>
 </ul>
