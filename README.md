@@ -44,7 +44,6 @@
 
 <h2>Other MATLAB Files</h2>
 <ul>
-  <li>demo.m: Uses a trained KNN classifier to determine artists from unseen audio clips</li>
   <li>Fingerprinting.m: Generates fingerprints for each song and trains a decision tree using the fingerprints</li>
 
   <li>decision_tree_v2_test.m: Calculates the maximum magnitude value across time frames for each frequency to generate a feature matrix for each song for the decision tree and calls decision decision_tree_v2_magnitude.m to run the decision tree classifier</li>
