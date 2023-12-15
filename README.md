@@ -6,7 +6,7 @@
 <h2>Dataset Collected</h2>
 <p>For our data, we decided to have 8 music artists, 4 male and 4 female, and for each music artist we found 10 songs and extracted a 10 second clip from each song in the form of .wav files. The music artists we selected were Drake, Pitbull, Taylor Swift, Katy Perry, Beyonce, The Weeknd, Travis Scott, and Lana Del Rey. Later on, we also added 10 more clips(making a total of 20) each for four of the music artists, Drake, Lana Del Rey, Taylor Swift, and Pitbull, to see if additional amount of data for a smaller number of music artists would improve our classification model. </p>
 
-<p>Our demo.m file only classifies 4 of these artists: Pitbull, Taylor Swift, Lana Del Ray, and Drake</p>
+<p>Our demo.m file only classifies 4 of these artists: Pitbull, Taylor Swift, Lana Del Ray, and Drake.</p>
 
 <h2>DSP Tools Used</h2>
 <p>For our project, we used various DSP Tools to isolate the vocals of the music artist while attenuating the instrumentals. The following is a list of some of the tools used: </p>
