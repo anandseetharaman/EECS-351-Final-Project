@@ -6,6 +6,8 @@
 <h2>DSP Tools Used</h2>
 <p>For our project, we used various DSP Tools to isolate the vocals of the music artist while attenuating the instrumentals. The following is a list of some of the tools used: </p>
 <ul>
+  <li>demo.m: Uses a trained KNN classifier to determine artists from unseen audio clips</li>
+  
   <li>Frequency Domain Analysis: Transform our audio signals into frequency domain and analyze from there</li>
   
   <li>Filters: Attenuate all the noise with frequencies outside of the desired frequency range, which would be human vocals frequncy range for out project</li>
@@ -24,4 +26,24 @@
 
   <li>SVM: Finds the optimal hyperplanes in order to separate the data to create different classes </li>
 
+</ul>
+
+<h2>MATLAB Files</h2>
+<ul>
+  <li>demo.m: Uses a trained KNN classifier to determine artists from unseen audio clips</li>
+  <li>Fingerprinting.m: Generates fingerprints for each song and trains a decision tree using the fingerprints</li>
+
+  <li>decision_tree_v2_test.m: Calculates the maximum magnitude value across time frames for each frequency to generate a feature matrix for each song for the decision tree and Calls decision decision_tree_v2_magnitude.m to run the decision tree classifier</li>
+
+  <li>decision_tree_v2_magnitude.m: Runs the decision tree classifier for decision_tree_v2_test.m </li>
+
+  <li>decision_tree_v3_MFCC_test.m: Extracts 13 MFCCs from each song and calculate the mean of each of the coefficients for each of the songs and store them in a feature vector</li>
+
+  <li>decision_tree_v3_MFCC.m: Runs the decision tree classifier for decision_tree_v3_MFCC_test.m</li>
+
+  <li>classificationTest.m: Trains a set of data, on a range of audio features, in either KNN, naive bayes, or discriminant analysis. Cross evaluates the classifier and tests it on unused data to determine effectiveness</li>
+
+  <li>testNotch.m: Notch filter used to remove unwanted noise in audio clips</li>
+
+  <li>filterSong.m: Uses testNotch.m to take in a wav file and filter it and outputs the filtered file with the prefix “filter_”</li>
 </ul>
