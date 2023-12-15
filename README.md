@@ -64,5 +64,6 @@
   <li>SVM_LanaVsTaylor.m: Runs the SVM classifier to compare Lana Del Ray to Taylor Swift</li>
 
   <li>SVM_PitbullVsDrake.m: Runs the SVM classifier to compare Pitbull to Drake</li>
-  
+  <li>fourartistdata: 20 clips from Taylor Swift, Lana Del Rey, Drake, and Pitbull used to train the demo KNN classifier, all prefiltered</li>
+  <li>eightartistdata: 10 clips from Taylor Swift, Lana Del Rey, Beyonce, Katy Perry, The Weeknd, Travis Scott, Drake, and Pitbull</li>
 </ul>
